@@ -287,7 +287,7 @@
 
         <div class="col-md-4">
           <div class="card card-custom p-3 h-100">
-            <img src="c:\isman coding\assets\IMG-20260423-WA0025.jpg" class="project-img" alt="Project Website" />
+           <img src="assets/IMG-20260423-WA0025.jpg" class="project-img" alt="Project Website" />
             <div class="card-body">
               <h5>IT Support</h5>
               <p>Memastikan dan mengecek keluhan dari client agar kendala bisa diselesaikan baik secara langsung atau secara remote. </p>
@@ -297,7 +297,7 @@
 
         <div class="col-md-4">
           <div class="card card-custom p-3 h-100">
-            <img src="c:\isman coding\assets\IMG-20260501-WA0026.jpg" class="project-img" alt="Project IT" />
+            <img src="assets/IMG-20260501-WA0026.jpg" class="project-img" alt="Project IT" />
             <div class="card-body">
               <h5>Monitoring Jaringan</h5>
               <p>Memantau jaringan selama 24/7 secara realtime.</p>
