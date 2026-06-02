@@ -277,7 +277,7 @@
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card card-custom p-3 h-100">
-            <img src="c:\isman coding\assets\IMG-20260501-WA0019.jpg" class="project-img" alt="Project Jaringan" />
+            <img src="assets/IMG-20260501-WA0019.jpg" class="project-img" alt="Project Jaringan" />
             <div class="card-body">
               <h5>Simulasi Jaringan Kantor</h5>
               <p>Memastikan Jaringan pada router, switch, dan beberapa komputer.</p>
