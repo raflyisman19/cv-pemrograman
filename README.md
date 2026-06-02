@@ -146,7 +146,7 @@
           <a href="#projects" class="btn btn-outline-light btn-lg mt-3 ms-2">Lihat Project</a>
         </div>
         <div class="col-md-5 text-center mt-4 mt-md-0">
-          <img src="c:\All Foto\1739112419_9873b0ff9177a4017fb9.jpg" alt="Foto Profil" class="profile-img" />
+          <img src="assets/1739112419_9873b0ff9177a4017fb9.jpg" alt="Foto Profil" class="profile-img" />
           <p class="mt-3"><small>Explore My Portfolio</small></p>
         </div>
       </div>
