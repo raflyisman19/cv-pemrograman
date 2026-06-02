@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Network Engineer Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #08111f;
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(8, 17, 31, 0.9);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00eaff;
+    }
+
+    nav a {
+      color: #dbeafe;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #00eaff;
+    }
+
+    .hero {
+      min-height: 85vh;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      align-items: center;
+      padding: 60px 8%;
+      gap: 40px;
+      background: radial-gradient(circle at top right, rgba(0, 234, 255, 0.18), transparent 35%);
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #00eaff;
+    }
+
+    .hero p {
+      color: #cbd5e1;
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 26px;
+      background: #00eaff;
+      color: #08111f;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 25px rgba(0, 234, 255, 0.45);
+    }
+
+    .card-network {
+      background: rgba(15, 23, 42, 0.9);
+      padding: 35px;
+      border-radius: 25px;
+      border: 1px solid rgba(0, 234, 255, 0.3);
+      box-shadow: 0 0 40px rgba(0, 234, 255, 0.12);
+    }
+
+    .server {
+      background: #111827;
+      padding: 18px;
+      border-radius: 15px;
+      margin-bottom: 15px;
+      border-left: 5px solid #00eaff;
+    }
+
+    .server h3 {
+      color: #00eaff;
+      margin-bottom: 8px;
+    }
+
+    .lampu {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #22c55e;
+      border-radius: 50%;
+      margin-right: 8px;
+      box-shadow: 0 0 12px #22c55e;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 40px;
+      color: #00eaff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .skill-card {
+      background: #0f172a;
+      padding: 28px;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: 0.3s;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-8px);
+      border-color: #00eaff;
+      box-shadow: 0 0 25px rgba(0, 234, 255, 0.15);
+    }
+
+    .skill-card h3 {
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+
+    .skill-card p {
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+
+    .project {
+      background: linear-gradient(135deg, #0f172a, #111827);
+      padding: 30px;
+      border-radius: 22px;
+      border: 1px solid rgba(0, 234, 255, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #050b14;
+      color: #94a3b8;
+      border-top: 1px solid rgba(0, 234, 255, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">NetEngineer</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#skill">Skill</a>
+      <a href="#project">Project</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div>
+      <h1>Welcome,Rafly Isman <span>Network Engineer</span></h1>
+      <p>
+        Saya belajar dan membangun jaringan komputer, konfigurasi router, switch,
+        IP addressing, subnetting, firewall, serta monitoring jaringan agar koneksi
+        tetap stabil, aman, dan efisien.
+      </p>
+      <a href="#skill" class="btn">Lihat Skill Saya</a>
+    </div>
+
+    <div class="card-network">
+      <div class="server">
+        <h3><span class="lampu"></span>Router Status</h3>
+        <p>Online - Gateway aktif</p>
+      </div>
+      <div class="server">
+        <h3><span class="lampu"></span>Switch Core</h3>
+        <p>24 Port aktif - VLAN berjalan</p>
+      </div>
+      <div class="server">
+        <h3><span class="lampu"></span>Firewall</h3>
+        <p>Security rules enabled</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill">
+    <h2 class="title">Skill Network Engineer</h2>
+    <div class="grid">
+      <div class="skill-card">
+        <h3>IP Addressing</h3>
+        <p>Mengatur IP, subnet mask, gateway, dan DNS dalam jaringan lokal.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Subnetting</h3>
+        <p>Membagi jaringan menjadi beberapa subnet agar lebih rapi dan efisien.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Router & Switch</h3>
+        <p>Konfigurasi perangkat jaringan seperti router, switch, VLAN, dan routing.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Network Security</h3>
+        <p>Mengamankan jaringan menggunakan firewall, access control, dan monitoring.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="project">
+    <h2 class="title">Contoh Project</h2>
+    <div class="grid">
+      <div class="project">
+        <h3>Topologi Jaringan Kantor</h3>
+        <p>Membuat desain jaringan kantor dengan router, switch, access point, dan server.</p>
+      </div>
+      <div class="project">
+        <h3>Konfigurasi VLAN</h3>
+        <p>Membagi jaringan berdasarkan divisi seperti Admin, IT, dan Guest Network.</p>
+      </div>
+      <div class="project">
+        <h3>Monitoring Jaringan</h3>
+        <p>Memantau koneksi jaringan agar masalah dapat diketahui lebih cepat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2 class="title">Kontak</h2>
+    <div class="project" style="max-width: 700px; margin: auto; text-align: center;">
+      <p>Email: raflyisman19.com</p>
+      <p>Instagram: rflyisman</p>
+      <p>LinkedIn: linkedin.com/in/muhammadraflyisman</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Network Engineer Portfolio. Dibuat dengan HTML & CSS.</p>
+  </footer>
+</body>
+</html>
